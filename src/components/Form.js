@@ -24,7 +24,7 @@ const Form = ({inputText,setInputText,todos,setTodos,setStatus}) => {
         <form>
             <input type="text" className="todo-input" onChange={inputTextHandler} value={inputText}/>
             <button onClick={submitTodoHandler} className="todo-button" type="submit">
-                <i className="fas fa-plus-square"></i>
+                <i className="fas fa-plus"></i>
             </button>
             <div className="select">
                 <select onChange={statusHandler} name="todos" className="filter-todo">
